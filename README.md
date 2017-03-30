@@ -34,17 +34,18 @@
 
 5.Example:
 	
-	Spider for url  -version-1.0.3 --Written by Wu Jiayuan
+	Spider for url  -version-1.0.3 --Written by WJY
 		
 		-h   Print the information of help
 		-f   specified site file was crawling
-		-k   specified keyword in url
+		-k   specified keyword in url.Multiple key separated by ',' 
+		-n  specified keyword not in url.Multiple key separated by ','
 		-t   specified the count of threads
 		-l   specified by crawling site depth
 		-r   specified the frequency of crawling
-		-m   specified the mode of store 'text' or 'db'
+		-m 	 specified the mode of store 'text' or 'db'
 		
-	Exampe:python3 Spider.py -f url.txt
+		Exampe:python3 Spider.py -f url.txt
 
 
 
